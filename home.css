@@ -1,0 +1,61 @@
+.image{
+    background-image:url(https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_427,q_65,w_640/v1/clients/jamaica-redesign/NEGRIL_1__314a1459-d488-4e38-b20b-a32767f00740.jpg);
+    height:500px ;
+
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    font-weight:800;
+    text-transform: uppercase;
+    background:linear-gradient(135deg, #0a0a0a 10%, #048f27 50%, #e0da1f 100%);
+    background-size: 300%;
+    animation:animate 10s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate {
+    100%{
+        background-position: 400%;
+
+    }
+}
+.flex-container{
+    justify-content:space-between;
+    display:flex; 
+}
+.flex-item{
+    
+}
+
+div{
+    box-shadow:0px 0px 10px #999;
+    margin:50px 100px;
+    padding:15px;
+}
+/*
+.2{
+
+    float:right;
+    margin-left:20px;
+    margin-bottom:10px;
+    width:400px;
+}
+    */
+
+.map-container{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+
+
+
+
+           
+    
+

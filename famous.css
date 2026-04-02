@@ -1,0 +1,47 @@
+.title{
+    color:black;
+    text-align: center;
+ animation: glow 2s infinite;
+}
+@keyframes glow{
+    from{
+        text-shadow:
+            0 0 2px rgb(241, 223, 62),
+            0 0 5px rgb(241, 223, 62),
+            0 0 85px rgb(241, 223, 62),
+           
+    }
+    to{
+        text-shadow:
+            0 0 20px rgb(241, 223, 62),
+            0 0 30px rgb(241, 223, 62),
+            0 0 40px rgb(241, 223, 62);
+    }
+}
+
+body{
+    background:radial-gradient(#f3de25,#e5e747, #07b137,#1cdd52);
+    background-repeat:no-repeat;
+}
+
+.box{
+    box-shadow:0px 0px 10px #000;
+    margin:50px 120px;
+    padding:15px;
+}
+
+.fade-in{
+    box-shadow:0px 0px 10px #000;
+    margin:20px 120px;
+    padding:15px;
+    opacity: 0;
+    animation: fadeIn 3s ease-in forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
